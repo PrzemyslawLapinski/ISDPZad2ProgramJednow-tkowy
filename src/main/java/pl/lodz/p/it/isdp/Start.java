@@ -23,7 +23,7 @@ public class Start {
 
             if (sortExample.checkMinOrderSort()) {
                 System.out.println("Po sortowaniu: " + sortExample); //niejawne wywołanie metody sortExample.toString()
-                JDBCConnection.connect(args[1].trim(), args[2].trim(), args[3].trim(),sortExample);
+                JDBCConnection.saveSortTable(args[1].trim(), args[2].trim(), args[3].trim(), sortExample);
             }
 
         } catch (NumberFormatException nfe) {
