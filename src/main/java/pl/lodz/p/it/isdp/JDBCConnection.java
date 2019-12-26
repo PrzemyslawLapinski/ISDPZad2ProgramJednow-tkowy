@@ -5,8 +5,8 @@ import java.util.Properties;
 
 public class JDBCConnection {
     public static void saveSortTable(String databaseName, String login, String password, SortTabNumbers sortExample) {
-        final String driver = "jdbc:derby";
-        String url = driver.concat(":" + databaseName); //jdbc:derby:ISDP
+        final String driver = "jdbc:derby:";
+        String url = driver.concat(databaseName); //jdbc:derby:ISDP
         Properties properties = new Properties();
         properties.setProperty("user", login);           //admin
         properties.setProperty("password", password); //admin1234
