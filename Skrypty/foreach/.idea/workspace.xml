@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48494245-c2aa-4a1a-b190-3254f0082415" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1W7VKMba7LqH6TFoMbqiJtXOZjb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.lodz.p.it.isdp.Start" />
+      <module name="SortingTable_debug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.lodz.p.it.isdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48494245-c2aa-4a1a-b190-3254f0082415" name="Default Changelist" comment="" />
+      <created>1578500554307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578500554307</updated>
+      <workItem from="1578500556448" duration="2125000" />
+      <workItem from="1578509471312" duration="223000" />
+      <workItem from="1578510528067" duration="1806000" />
+      <workItem from="1578512797822" duration="1910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="799" y="380" width="312" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578501314330">
+      <screen x="0" y="27" width="1920" height="923" />
+    </state>
+    <state x="799" y="380" width="312" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1920.923@0.27.1920.923" timestamp="1578501314330" />
+    <state x="608" y="316" key="com.intellij.ide.util.TipDialog" timestamp="1578512812180">
+      <screen x="0" y="27" width="1920" height="923" />
+    </state>
+    <state x="608" y="316" key="com.intellij.ide.util.TipDialog/0.27.1920.923@0.27.1920.923" timestamp="1578512812180" />
+    <state x="624" y="219" key="run.anything.popup" timestamp="1578511245090">
+      <screen x="0" y="27" width="1920" height="923" />
+    </state>
+    <state x="624" y="219" key="run.anything.popup/0.27.1920.923@0.27.1920.923" timestamp="1578511245090" />
+  </component>
+</project>
