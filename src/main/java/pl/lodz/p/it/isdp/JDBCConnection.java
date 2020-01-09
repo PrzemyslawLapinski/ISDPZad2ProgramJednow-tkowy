@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.Properties;
 
 public class JDBCConnection {
-    public static void saveSortTable(String databaseName, String login, String password, SortTabNumbers sortExample) {
+    public static int saveSortTable(String databaseName, String login, String password, SortTabNumbers sortExample) {
         final String driver = "jdbc:derby:";
         String url = driver.concat(databaseName); //jdbc:derby:ISDP
         Properties properties = new Properties();
@@ -14,6 +14,7 @@ public class JDBCConnection {
         int generatedKey = writeToSortTable(url, properties);
 
         writeToArrayElements(url, properties, generatedKey, sortExample);
+        return generatedKey;
     }
 
     private static int writeToSortTable(String url, Properties properties) {
