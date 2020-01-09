@@ -14,6 +14,8 @@ for {set i 0} {$i < 2} {incr i 1} {
         expect -re "main... "
         send "step\r"
 	expect -re "main... "
+	send "set tab\[$i\] = 5\r"
+	expect -re "main... "
 	send "set pos = 9\r"
 	expect -re "main... "
 	send "step\r"
