@@ -23,7 +23,12 @@ public class Start {
 
             if (sortExample.checkMinOrderSort()) {
                 System.out.println("Po sortowaniu: " + sortExample); //niejawne wywołanie metody sortExample.toString()
-                JDBCConnection.saveSortTable(args[1].trim(), args[2].trim(), args[3].trim(), sortExample);
+                Integer generatedKey = JDBCConnection.saveSortTable(args[1].trim(), args[2].trim(), args[3].trim(), sortExample);
+                if(generatedKey.equals(-1)) {
+                    System.out.println("Nie udało się zapisać tablicy"); 
+                } else {
+                System.out.println("Tablica została zapisana w bazie pod numerem id: " + generatedKey);
+                }
             }
 
         } catch (NumberFormatException nfe) {
